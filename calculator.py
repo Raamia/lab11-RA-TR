@@ -1,4 +1,4 @@
-https://github.com/Raamia/lab11-RA-TR
+#https://github.com/Raamia/lab11-RA-TR
 """
 calculator.py
 - Defines functions used to create a simple calculator
