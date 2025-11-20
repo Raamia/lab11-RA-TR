@@ -24,3 +24,17 @@ def logarithm(a,b):
         return math.log(a,b)
 def exponent(a,b):
     return a**b
+def square_root(a):
+    try:
+        if a<0:
+            raise ValueError
+        else:
+            return math.sqrt(a)
+    except:
+        raise ValueError
+def hypotenuse(a,b):
+    try:
+        return math.sqrt(((a**2)+(b**2)))
+    except TypeError:
+        return ValueError
+
